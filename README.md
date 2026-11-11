@@ -15,13 +15,4 @@ A modular, custom C preprocessor built entirely from scratch in C. This project 
 
 ---
 
-## Project Structure
 
-
-project1/
-├── main.c                 # Coordinates the multi-pass preprocessor pipeline
-├── header.h               # Shared header file containing declarations
-├── comment_removal.c      # Module for removing comments
-├── file_inclusion.c       # Module for processing #include directives
-├── macro_substitution.c   # Module for handling object and function-like macros
-└── Makefile               # Build automation script
